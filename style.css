@@ -1,0 +1,75 @@
+h1{
+    color: blue;
+    font-size: 3rem;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+}
+#fruit{
+    color: yellow;
+    font-size: 3rem;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+}
+p{
+    color: red;
+    font-size: 3rem;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+    font-style: italic;
+}
+nav ul li{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-content: center;
+    list-style: none;
+    margin-top: 3%;
+    margin-right: 5%;
+    padding: 0%;
+    row-gap: 5%;
+    background-color: chartreuse;
+    margin-left: 90%;
+    cursor: pointer;
+}
+nav ul li: hover{
+    background-color:red;
+    color:blue;
+    font-size: 2rem;
+    font-weight: bold;
+}
+.farming li{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    justify-items: center;
+    gap: 5rem;
+    flex-wrap: wrap;
+}
+@media screen and (max-width:300px) {
+    body{
+        background-color:green;
+        width:100%;
+        height:auto;
+        margin:0;
+    }   
+}
+@media  screen and (max-width: 600px) {
+    body{
+        background-color: blue;
+        background-color:green;
+        width:100%;
+        height:auto;
+        margin:0;
+    }
+} 
+@media screen and (max-width:900px) {
+    body{
+        background-color:green;
+        width:100%;
+        height:auto;
+        margin:0;   
+    
+}
+
+    
